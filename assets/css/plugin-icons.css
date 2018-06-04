@@ -1,0 +1,211 @@
+/*
+ * EXTERNAL ICONS SUPPORT: plugin-icons.css contain "external" icons, i.e. the ones
+ * displayed outside plugin's views, in the main app menus, shortcuts or object lists.
+ * Do not include other CSS rules here!
+ *
+ * Css name format must be ".bundleName-iconKey", where bundleName is the
+ * defaultBundle and iconKey the resource key used in plugin.xml:
+ *
+ *   <plugin id="..." defaultBundle="bundleName">
+ *    ...
+ *      <icon>#{iconKey}</icon>
+ *
+ * The same iconKey is defined in the .properties file used to compile Flex resources:
+ *   iconKey = Embed("../../assets/images/someIcon.png")
+ *
+ * Follow the SDK doc or other samples for the correct attributes based on the type of icon.
+ */
+.com_dell_pg_spectre-pluginIcon {
+    background: url("../images/pluginIcon.png");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.com_dell_pg_spectre-removeIcon {
+    background: url("../images/removeIcon.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-chassis {
+    background: url("../images/chassis.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+
+.com_dell_pg_spectre-addIcon {
+    background: url("../images/addIcon.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-editIcon {
+    background: url("../images/editIcon.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+
+.com_dell_pg_spectre-dellIcon {
+    background: url("../images/Dell_Logo_Blue_32.png");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-smalldellIcon {
+    background: url("../images/dell_corp16.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-host.wizard.firmwareUpdate.icon {
+    background: url("../images/editIcon.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-blink_led_on.icon {
+    background: url("../images/LED-On.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-dellApplianceIcon {
+    background: url("../images/dell_corp16.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-dellHostIcon {
+    background: url("../images/ic_nav_server_tower_blu_16.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+
+.com_dell_pg_spectre-dellChassisIcon {
+    background: url("../images/ic_bladeChassisFront_active_16.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.com_dell_pg_spectre-delete.icon {
+    background: url("../images/deleteIcon.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 4px 0;
+}
+
+.success-icon32-status{
+	background-image:url("../images/ic_status_ok_24.png");
+    background-repeat: no-repeat;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+	margin-top: 4px;
+}
+.warning-icon32-status{
+	background-image:url("../images/ic_status_warning_24.png");
+    background-repeat: no-repeat;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+	margin-top: 4px;
+}
+.error-icon32-status{
+	background-image:url("../images/ic_status_error_24.png");
+    background-repeat: no-repeat;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+	margin-top: 4px;
+}
+
+.success-icon-status{
+	background-image:url("../images/ic_status_ok_20.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+	margin-top: 4px;
+}
+
+.warning-icon-status{
+	background-image:url("../images/ic_status_warning_20.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+	margin-top: 4px;
+}
+.error-icon-status{
+	background-image:url("../images/ic_status_error_20.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+	margin-top: 4px;
+}
+.unknown-icon-status{
+	background-image:url("../images/ic_status_unknown_20.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+	margin-top: 4px;
+}
+
+
+
+.sandbox-modal .modal-dialog .modal-content .modal-body {
+    max-height:none !important;
+  }
+  
+  .sandbox-iframe{
+      max-width: 100% !important;
+  }
+  
+  
+  .clr-wizard.wizard-xl .modal-dialog {
+      min-height: 420px;
+      max-height: 720px;
+  }
+  

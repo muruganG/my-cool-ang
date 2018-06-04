@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>webClientHtml plugin</title>
+   <script>
+      // Set base href to /ui/webClientHtml/ in plugin mode, and to / in standalone mode
+      var _href = document.location.href;
+      if (_href.indexOf("/index.html") > 0) {
+         _href = _href.substring(0, _href.indexOf("/index.html") + 1);
+      } else {
+         _href = "/";
+      }
+      document.write('<base href="' + _href + '" />');
+   </script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<my-app>Loading...</my-app>
+<div class="row">
+        <dell-appliance> </dell-appliance>
+</div>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
